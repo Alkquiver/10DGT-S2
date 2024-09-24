@@ -1,0 +1,22 @@
+# Loops and incidents
+# Author: Jesse Mao
+# Date: 25 September 2024
+# Version 2
+# TODO:
+    # Get user input (ask the user for their name)
+    # Ask the user for two numbers
+    # Add the numbers together
+
+# Ask the user for their name
+name = input("What is your name? ")
+print(f"Kia ora {name}.")  #f stands for format. We are formatting the print statement
+    
+# Ask the user for two numbers
+num_1 = int(input("What is your favorite number? "))
+num_2 = int(input("What is your least favorite number? "))
+
+# Add numbers together
+sum = num_1 + num_2
+print(f"Your numbers added up to {sum}")
+
+# for loops 
