@@ -19,4 +19,18 @@ num_2 = int(input("What is your least favorite number? "))
 sum = num_1 + num_2
 print(f"Your numbers added up to {sum}")
 
-# for loops 
+# for loops. Repeat for a set number of tries
+# for start the loop
+# next is the name of the loop
+# in range tells the loop how many times to run
+# the number in the () is how many times it repeats
+for name_of_loop in range(10):
+    print("ha!")
+
+# while loop. Runs until a condition is met
+keep_going = "" # empty variable
+while keep_going == "":
+    print("Looping")
+    print("Still looping")
+
+    keep_going = input("Again? Or press any other key to quit.\n")
