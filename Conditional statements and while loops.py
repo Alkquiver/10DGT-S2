@@ -19,12 +19,12 @@ while keep_going == "":
     elif like_coffee == "no" or like_coffee == "nah" or like_coffee == "n":
          print("You are missing out! ")
 
-    like_tea = input("Would you like some tea instead? ").upper()
+         like_tea = input("Would you like some tea instead? ").upper()
          # .upper() converts the input to upper case
-    if like_tea == "YES" or like_tea == "Y":
-        print("Good for you. Give coffee another try!")
-    elif like_tea == "NO" or like_tea == "N":
-            print("Sorry, that is all I have")
+         if like_tea == "YES" or like_tea == "Y":
+             print("Good for you. Give coffee another try!")
+         elif like_tea == "NO" or like_tea == "N":
+             print("Sorry, that is all I have")
 
     else:
          print("I don't understand.")
