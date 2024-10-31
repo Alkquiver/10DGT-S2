@@ -18,7 +18,7 @@ def valid_num(question):
 while True:
     print("Perimiter and area calculator")
     width = valid_num("Please enter the width: ")
-    length = valid_num("Please eneter the length: ")
+    length = valid_num("Please enter the length: ")
 
 
 # Calculate the area / perimeter
